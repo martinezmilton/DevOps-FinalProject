@@ -20,6 +20,5 @@ Follow these steps to run the project on your local machine:
 
    Open your browser and go to http://localhost/8081
 5. **Stop the container:**
-   
-   - To get the container ID: docker ps
-   - Use this comand to stop it: docker stop <container_id>
+- To get the container ID: docker ps
+- Use this comand to stop it: docker stop <container_id>
