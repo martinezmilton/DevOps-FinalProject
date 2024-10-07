@@ -1,20 +1,20 @@
 # DevOps-FinalProject (Freedom Motocross Store)
-Este es un proyecto de pagina web, contruido con HTML y CSS, que se ejecuta en un contenedor Docker.
+This is a webpage project, built with HTML y CSS, that runs in a Docker container.
 
-## Requisitos previos
-Instalaciones requeridas:
+## Prerequisites
+Required installations:
 - [Docker](https://docs.docker.com/get-docker/)
-## Ejecutar el proyecto
-Sigue estos pasos para ejecutar el proyecto en tu maquina local
+## Run the project
+Follow these steps to run the project on your local machine:
 
-1. **Clona el repositorio:**
+1. **Clone the repository:**
 git clone https://github.com/martinezmilton/DevOps-FinalProject.git
-2. **Construir la imagen Docker**
+2. **Build the Docker Image**
 docker build -t freedom-motocross-store .
-3. **Ejecutar el contenedor**
+3. **Run the container**
 docker run -d -p 8081:80 freedom-motocross-store
-4. **Acceder a la aplicacion**
-Abre tu navegador y ve a http://localhost/8081
-5. **Detener el contenedor**
-- obtener el ID: docker ps
-- Utiliza este comando para deterner: docker stop <container_id>
+4. **Access the applicaction**
+Open your browser and go to http://localhost/8081
+5. **Stop the container**
+- To get the container ID: docker ps
+- Use this comand to stop it: docker stop <container_id>
