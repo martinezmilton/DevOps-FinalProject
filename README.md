@@ -8,10 +8,10 @@ Required installations:
 Follow these steps to run the project on your local machine:
 
 1. **Clone the repository:**
-   
-git clone https://github.com/martinezmilton/DevOps-FinalProject.git
 
-2. **Build the Docker Image**
+   git clone https://github.com/martinezmilton/DevOps-FinalProject.git
+
+3. **Build the Docker Image**
 docker build -t freedom-motocross-store .
 4. **Run the container**
 docker run -d -p 8081:80 freedom-motocross-store
