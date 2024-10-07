@@ -1,0 +1,10 @@
+{
+  "tagname-lowercase": true,
+  "attr-lowercase": true,
+  "attr-no-dup": true,
+  "doctype-first": true,
+  "spec-char-escape": true,
+  "id-class-value": true,
+  "src-not-empty": true,
+  "title-require": true
+}
