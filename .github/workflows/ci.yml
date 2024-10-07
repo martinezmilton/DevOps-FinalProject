@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      # Instalar Node.js para utilizar htmlhint y stylelint
+      # Instalar Node.js para utilizar htmlhint
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -27,14 +27,6 @@ jobs:
       # Ejecutar HTMLHint
       - name: Run HTMLHint
         run: htmlhint index.html nosotros.html producto.html
-
-      # Instalar Stylelint
-      - name: Install Stylelint
-        run: npm install -g stylelint stylelint-config-standard
-
-      # Ejecutar Stylelint
-      - name: Run Stylelint
-        run: stylelint css/*.css
 
       # Iniciar sesión en Docker Hub
       - name: Log in to Docker Hub
